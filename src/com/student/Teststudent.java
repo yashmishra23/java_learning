@@ -7,8 +7,8 @@ public class Teststudent {
 		RegularStudent rs = new RegularStudent("riya ","AI",90,19,90,"H703");
 		HostalStudent hs = new HostalStudent("riya ","AI",90,19,90,"H703","arya",309);
 		//parent class function
-//		rs.displayinfo();
-//		rs.payFee();
+		rs.displayinfo();
+		rs.payFee();
 		hs.displayinfo();
 		hs.payFee();
 		s1.payFee();
